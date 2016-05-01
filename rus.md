@@ -1,4 +1,5 @@
 # Осваиваем трансдьюсеры в JavaScript
+
 Я нашёл очень хорошую статью о трансдьюсерах: [«Осваиваем трансдьюсеры»][1].
 Если вы знакомы с Clojure, советую прочитать её. Если же вам в диковинку
 lisp-подобный код, не отчаивайтесь — я переписал примеры на языке JavaScript,
@@ -268,7 +269,7 @@ const square = (x) => x * x;
 
 
  [Визуализация работы встроенных трансформаций массивов]: img/array-methods-visually.gif "Визуализация работы встроенных трансформаций массивов"
- [Визуализация работы трансдьюсеров]: img/transducers-visually.gif "Визуализация работы трансдьюсеров"
+ [Визуализация работы трансдьюсеров]: img/tranducers-visually.gif "Визуализация работы трансдьюсеров"
  [1]: http://elbenshira.com/blog/understanding-transducers/
  [2]: https://github.com/cognitect-labs/transducers-js
  [3]: https://github.com/cognitect-labs/transducers-js#the-transducer-protocol
