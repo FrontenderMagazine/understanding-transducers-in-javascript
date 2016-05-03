@@ -214,7 +214,7 @@ lisp-подобный код, не отчаивайтесь — я перепи�
         []);
     // [2, 4, 6, 8, 10]
 
-Давайте воспользуемся функцией `R.compose` из библиотеки Ramda для лучшей читабельности кода:
+Давайте воспользуемся функцией `R.compose` из библиотеки [Ramda][4] для лучшей читабельности кода:
 
     const xform = R.compose(
       mapping((x) => x + 1),
@@ -229,7 +229,7 @@ lisp-подобный код, не отчаивайтесь — я перепи�
 
 Более сложный пример:
 
-const square = (x) => x * x;
+    const square = (x) => x * x;
 
     const xform = R.compose(
       filtering((x) => x % 2 === 0),
@@ -273,3 +273,4 @@ const square = (x) => x * x;
  [1]: http://elbenshira.com/blog/understanding-transducers/
  [2]: https://github.com/cognitect-labs/transducers-js
  [3]: https://github.com/cognitect-labs/transducers-js#the-transducer-protocol
+ [4]: http://ramdajs.com/
